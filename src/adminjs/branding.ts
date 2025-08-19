@@ -1,7 +1,7 @@
 import { BrandingOptions } from 'adminjs'
 
 export const brandingOptions: BrandingOptions = {
-  companyName: 'OneBitFlix',
+  companyName: 'DevFlix',
   logo: '/devflix.svg',
   theme: {
     colors: {
