@@ -14,7 +14,7 @@ export const coursesController = {
     }
   },
 
-    newest: async (req: Request, res: Response) => {
+  newest: async (req: Request, res: Response) => {
     try {
       const newestCourses = await courseService.getTopTenNewest()
       return res.json(newestCourses)
@@ -40,7 +40,7 @@ export const coursesController = {
     }
   },
 
-    show: async (req: Request, res: Response) => {
+  show: async (req: Request, res: Response) => {
     const { id } = req.params
 
     try {
